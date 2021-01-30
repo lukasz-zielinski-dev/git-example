@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
+
+:root {
+  --primary: #f34f29;
+  --secondary: #3d2d00;
+  --light: #f0f0f0;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  background-color: var(--light);
+  margin: 0;
+  padding: 0;
+}
+
+.centered-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  font-family: "Roboto", sans-serif;
+  font-size: 144px;
+  color: var(--secondary);
+}
+
+#git-logo {
+  height: 150px;
+  margin-left: 20px;
+}
